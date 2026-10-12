@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "id": "phantas-v1-3",
+      "name": "Phantas v1.3",
+      "tags": ["phantas", "v1.3"],
+      "archived": false,
+      "style": {
+        "modelName": "Phantas",
+        "headerColor": "#3d3d3d",
+        "robotIcon": "img/phantas-robot.png",
+        "coverArt": "img/phantas-cover.png",
+        "titleQr": "img/title-qr.png"
+      },
+      "operation": [
+        { "title": "Operation", "url": "pages/phantas-v1-3/operation.pdf" }
+      ],
+      "maintenance": [
+        { "title": "Water tank maintenance", "url": "pages/phantas-v1-3/water-tank.pdf" },
+        { "title": "Squeegee maintenance", "url": "pages/phantas-v1-3/squeegee.pdf" }
+      ],
+      "defaultLastPage": "copilot-support"
+    }
+  ],
+  "lastPages": [
+    { "id": "copilot-support", "name": "Copilot support", "tags": ["copilot"], "archived": false, "url": "qr/copilot-support.pdf" },
+    { "id": "bradyplus", "name": "BradyPlus service", "tags": ["partner"], "archived": false, "url": "https://raw.githubusercontent.com/OWNER/REPO/main/qr/bradyplus.pdf" }
+  ]
+}
